@@ -1,0 +1,42 @@
+---
+layout: post
+title:  "El precio de la electricidad en España: La tormenta eléctrica perfecta"
+date:   2017-04-20 19:08:43 +0200
+categories: jekyll update
+---
+Hay pocos sectores tan intocables en nuestro país como el de la energía. El recibo de la luz es el quinto más caro de la Unión Europea, a pesar de que los salarios están muy por debajo de la media comunitaria. El precio de la electricidad en España ha subido un 29% desde el inicio de la crisis en 2008. La relación entre los ciudadanos y el tándem gobierno-eléctricas es una tormenta perfecta de regulación confusa, puertas giratorias, políticas sin consensuar y opacidad. Por no hablar del inexplicable parón de las renovables en un entorno natural con todo a favor para su desarrollo.
+El gobierno de José María Aznar liberalizó el sector eléctrico en 1997. El entonces Ministro de Economía Rodrigo Rato impulsó la privatización de todas las compañías eléctricas para crear un mercado libre. Libre, pero lleno de matices: El Estado se reservó el derecho de regular los precios para asegurar a los ciudadanos que el recibo de la luz no subía de forma abusiva.
+Al poco tiempo de la reforma, las grandes empresas eléctricas se quejaron de que el precio final de la electricidad no era suficiente para cubrir lo que les costaba producirla. El gobierno aceptó contabilizar esa diferencia como deuda que el sector público contraía con las eléctricas. Es decir: se barrieron los costes bajo la alfombra lejos de la atención ciudadana. 
+
+### La bola de nieve: 25 mil millones de deuda con las eléctricas
+Ese bulto bajo la alfombra fué creciendo y en el año 2005 la deuda ya había escalado a 4.000 millones de euros. Entonces, se obligó a los consumidores a pagarla poco a poco en el recibo de la luz (mientras seguía creciendo cada año). Según los últimos datos de la Comisión Nacional de los Mercados y la Competencia, en la actualidad la deuda asciende a 25.500 millones. Es lo que se conoce como “Déficit de tarifa”
+El Déficit de tarifa es uno de los contrasentidos de la legislación eléctrica, pero no es el único. Cuando se liberalizó el sector se concedieron unas suculentas ayudas a los propietarios de centrales nucleares e hidroeléctricas. ¿La razón? Ayudarles en la transición de una economía regulada a un mercado de libre competencia. El caso de las hidroeléctricas es especialmente curioso: La mayoría se construyeron durante la dictadura con mano de obra de presos políticos, con lo cual, su construcción fue mucho más barata que en otros países. Hoy en día están totalmente amortizadas.
+Las nucleares, por su parte, arrastraban otro “déficit”: El del parón nuclear que ordenó el gobierno socialista de Felipe González en 1994. Se paralizó por ley la construcción de centrales nucleares en España y se indemnizó a sus dueños con 5.717 millones de euros que los ciudadanos pagaron religiosamente en su factura de la luz hasta 2015.
+
+### El caos de las renovables
+El gobierno de José Luis Rodríguez Zapatero introdujo en 2007 una serie de medidas de fomento a las renovables con el fin de impulsar un nuevo modelo energético. Las ayudas a la energía solar fotovoltaica fueron especialmente importantes y provocaron un efecto burbuja. Un año después, en 2008, se había instalado una cantidad desproporcionada de potencia solar: 2.887 mW. Eso significa que en sólo un año se instaló el 62% de toda la energía fotovoltaica que existe en nuestro país. Tratando de pinchar la burbuja y acuciado por la crisis, el ministro de Industria Miguel Sebastián recortó parcialmente las ayudas que había concedido a los inversores en fotovoltaica. En la siguiente legislatura, gobernada por el Partido Popular, se recortaron aún más estas ayudas. Y el “impuesto al sol” provocó el estancamiento definitivo del sector. Con el resto de renovables sucede algo parecido: En 2014 no se instaló ni un solo kW de potencia eólica en todo el territorio nacional.
+Mientras se legislaba en contra de las renovables, José Manuel Soria –el ministro de Industria que tuvo que dimitir por su vinculación al escándalo de los Papeles de Panamá– favoreció el desarrollo de otras tecnologías más controvertidas como el fracking.
+
+
+{% highlight ruby %}
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %}
+
+1. Item 1
+1. Item 2
+1. Item 3
+1. Item 4
+
+- Lista sin ordenar
+- Lista sin sdfsd
+- dfdfgdfgd
+
+Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+
+[jekyll-docs]: https://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/
