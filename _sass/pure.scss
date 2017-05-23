@@ -16,10 +16,30 @@ Copyright (c) Nicolas Gallagher and Jonathan Neal
  *    without disabling user zoom.
  */
 
+// Define defaults for each variable.
+
+$base-font-family: "Crimson Text", serif !default;
+$base-font-size:   21px !default;
+$base-font-weight: 400 !default;
+$small-font-size:  $base-font-size * 0.875 !default;
+$base-line-height: 1.8 !default;
+
+$heading-font-family: "Raleway", Helvetica, Arial, sans-serif !default;
+$heading-line-height: 1.6 !default;
+
+$spacing-unit:     30px !default;
+
+$text-color:       #373D3F !default;
+$background-color: #fdfdfd !default;
+$brand-color:      #2a7ae2 !default;
+
+$grey-color:       #828282 !default;
+$grey-color-light: lighten($grey-color, 40%) !default;
+$grey-color-dark:  darken($grey-color, 25%) !default;
+
 html {
-  font-family: sans-serif; /* 1 */
-  -ms-text-size-adjust: 100%; /* 2 */
-  -webkit-text-size-adjust: 100%; /* 2 */
+  font-family: $base-font-family;
+  font-size: $base-font-size;
 }
 
 /**
@@ -27,6 +47,11 @@ html {
  */
 
 body {
+  font-family: $base-font-family;
+  font-weight: $base-font-weight;
+  line-height: $base-line-height;
+  color: $text-color;
+  background-color: $background-color;
   margin: 0;
 }
 
@@ -142,6 +167,15 @@ dfn {
  * Address variable `h1` font-size and margin within `section` and `article`
  * contexts in Firefox 4+, Safari, and Chrome.
  */
+
+/**
+ * Headings
+ */
+h1, h2, h3, h4, h5, h6 {
+  font-family: $heading-font-family;
+  font-weight: $base-font-weight;
+  line-height: $heading-line-height;
+}
 
 h1 {
   font-size: 2em;
@@ -444,6 +478,32 @@ th {
  */
 
 /**
+ * Container
+ */
+
+.container {
+  padding-right: 35px;
+  padding-left: 35px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 600px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 800px;
+  }
+}
+
+/**
  * Always hide an element when it has the `hidden` HTML attribute.
  */
 
@@ -486,7 +546,6 @@ th {
 
     * Helvetica, Arial, sans-serif: Common font stack on OS X and Windows.
     */
-    font-family: FreeSans, Arimo, "Droid Sans", Helvetica, Arial, sans-serif;
 
     /* Use flexbox when possible to avoid `letter-spacing` side-effects. */
     display: -webkit-box;
@@ -529,13 +588,7 @@ th {
     text-rendering: auto;
 }
 
-/*
-Resets the font family back to the OS/browser's default sans-serif font,
-this the same font stack that Normalize.css sets for the `body`.
-*/
-.pure-g [class *= "pure-u"] {
-    font-family: sans-serif;
-}
+
 
 .pure-u-1,
 .pure-u-1-1,
@@ -1441,7 +1494,7 @@ since IE8 won't execute CSS that contains a CSS3 selector.
 
 .pure-table caption {
     color: #000;
-    font: italic 85%/1 arial, sans-serif;
+    font: italic 85%/1;
     padding: 1em 0;
     text-align: center;
 }
